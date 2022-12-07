@@ -12,7 +12,7 @@ const Contacto = () => {
     )
 }
 const styles = StyleSheet.create({
-    container:{backgroundColor:"white", alignItems:"center", flex: 1, justifyContent:"flex-start", marginTop:80},
-    image: {height:81 , width:368}
+    container:{backgroundColor:"white", alignItems:"center", flex: 1, justifyContent:"flex-start"},
+    image: {height:81 , width:368, resizeMode:"contain"}
 })
 export default Contacto
